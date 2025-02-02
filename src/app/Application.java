@@ -1,6 +1,11 @@
 package app;
-
+/* Bonjour monsieur, je pense que ce programme fonctionne correctement mais je ne peux pas l'executer.
+   J'ai tout essayé jusqu'à désinstaler le JDK et le réinstaller mais rien n'y fait. 
+   Il faut que je regarde ça de plus près mais je n'en ai pas le temps avant le rendu du devoir (evaluations à préparer, etc...).
+   Merci de votre compréhension. 
+ */
 public class Application {
+        
         public static void main(String[] args) {
                 Ami ami1 = new Ami("Forneraud", "Aurélein", 2);
                 Ami ami2 = new Ami("Marmy", "Théo", 15);
