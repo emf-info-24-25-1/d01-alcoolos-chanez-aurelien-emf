@@ -1,8 +1,8 @@
 package app;
 
 public class Ami {
-    private static String nom;
-    private static String prenom;
+    private String nom;
+    private String prenom;
     private int nombreBièresSupportables;
 
     public Ami(String nom, String prenom, int nombreBièresSupportables) {

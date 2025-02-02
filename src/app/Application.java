@@ -1,18 +1,14 @@
 package app;
-/* Bonjour monsieur, je pense que ce programme fonctionne correctement mais je ne peux pas l'executer.
-   J'ai tout essayé jusqu'à désinstaler le JDK et le réinstaller mais rien n'y fait. 
-   Il faut que je regarde ça de plus près mais je n'en ai pas le temps avant le rendu du devoir (evaluations à préparer, etc...).
-   Merci de votre compréhension. 
- */
+
 public class Application {
-        
+
         public static void main(String[] args) {
-                Ami ami1 = new Ami("Forneraud", "Aurélein", 2);
+                Ami ami1 = new Ami("Fornerod", "Aurélien", 2);
                 Ami ami2 = new Ami("Marmy", "Théo", 15);
                 Ami ami3 = new Ami("Duc", "Gabriel", 5);
 
-                while (ami1.getNombreBièresSupportables() == 0 && ami2.getNombreBièresSupportables() == 0
-                                && ami3.getNombreBièresSupportables() == 0) {
+                while (ami1.getNombreBièresSupportables() != 0 || ami2.getNombreBièresSupportables() != 0
+                                || ami3.getNombreBièresSupportables() != 0) {
 
                         System.out.println("Nombre de bières supportables pour " + ami1.getPrenom() + " "
                                         + ami1.getNom() + " : " + ami1.getNombreBièresSupportables());
